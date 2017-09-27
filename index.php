@@ -48,6 +48,18 @@
 			echo $msgL;
 		}
 
+		public function htmlEnt($msg3)
+		{
+			$a = htmlentities($msg3);
+			echo $a;
+		}
+
+		public function htmlEntDec($msg3)
+		{
+			$a = html_entity_decode($msg3);
+			echo $a;
+		}
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
