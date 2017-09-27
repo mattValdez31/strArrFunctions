@@ -88,6 +88,12 @@
 			print_r(array_diff_key($array1, $array2));
 		}
 
+		public function arrayFill($array, $startInd, $num, $values)
+		{
+			$array = array_fill($startInd, $num, $values);
+			print_r($array);
+		}
+
 		
 
 		public function __destruct()
