@@ -94,7 +94,11 @@
 			print_r($array);
 		}
 
-		
+		public function arrayFillKeys($array, $value)
+		{
+			$a = array_fill_keys($array, $value);
+			print_r($a);
+		}
 
 		public function __destruct()
 		{
