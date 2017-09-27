@@ -113,6 +113,18 @@
 			print_r(array_keys($array));
 		}
 
+		public function arrayPop($array)
+		{
+			$a = array_pop($array);
+			print_r($a);
+		}
+
+		public function arraySearch($key,$array)
+		{
+			$x = array_search($key, $array);
+			echo $x;
+		}
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
