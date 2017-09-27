@@ -108,6 +108,10 @@
 			}
 		}
 
+		public function arrayKeys($array)
+		{
+			print_r(array_keys($array));
+		}
 
 		public function __destruct()
 		{
