@@ -100,6 +100,15 @@
 			print_r($a);
 		}
 
+		public function arrayKeyExists($key,$array)
+		{
+			if (array_key_exists($key,$array) == true)
+			{
+				echo $key . ' is in the array';
+			}
+		}
+
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
