@@ -83,6 +83,13 @@
 			print_r(array_diff_assoc($array1, $array2));
 		}
 
+		public function arrayDiffKey($array1, $array2)
+		{
+			print_r(array_diff_key($array1, $array2));
+		}
+
+		
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
