@@ -66,6 +66,20 @@
 			var_dump($a);
 		}
 
+		//ARRAY FUNCTIONS
+
+		public function arrayChunk($array, $chunkSize)
+		{
+			print_r(array_chunk($array, $chunkSize));
+		}
+
+		public function arrayCombine($array1, $array2)
+		{
+			print_r(array_combine($array1, $array2));
+		}
+
+		
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
