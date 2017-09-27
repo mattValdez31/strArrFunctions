@@ -24,6 +24,12 @@
 			echo $msg;
 		}
 
+		public function stringLength($msg)
+		{
+			$msglen  = int strlen($msg);
+			echo $msglen;
+		}
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
