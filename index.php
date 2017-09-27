@@ -13,6 +13,12 @@
 			echo chr($x);
 		}
 
+		public function explodeStr($del, $string)
+		{
+			$arrExplode = explode($del, $string);
+			print_r($arrExplode);
+		}
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
