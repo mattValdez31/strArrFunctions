@@ -19,6 +19,11 @@
 			print_r($arrExplode);
 		}
 
+		public function printThis($msg)
+		{
+			echo $msg;
+		}
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
