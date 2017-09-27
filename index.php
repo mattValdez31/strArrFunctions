@@ -30,6 +30,12 @@
 			echo $msglen;
 		}
 
+		public function stingPos($myString, $findMe)
+		{
+			$pos = strpos($myString, $findMe);
+			echo $pos;
+		}
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
