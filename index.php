@@ -36,6 +36,18 @@
 			echo $pos;
 		}
 
+		public function toUpper($msg)
+		{
+			$msgU = strtoupper($msg);
+			echo $msgU;
+		}
+
+		public function toLower($msg)
+		{
+			$msgL = strtolower($msg)
+			echo $msgL;
+		}
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
