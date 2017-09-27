@@ -78,7 +78,10 @@
 			print_r(array_combine($array1, $array2));
 		}
 
-		
+		public function arrayDiff($array1, $array2)
+		{
+			print_r(array_diff_assoc($array1, $array2));
+		}
 
 		public function __destruct()
 		{
