@@ -60,6 +60,12 @@
 			echo $a;
 		}
 
+		public function rightTrim($msg,$trimStr)
+		{
+			$a = rtrim($msg,$trimStr)
+			var_dump($a);
+		}
+
 		public function __destruct()
 		{
 			echo 'I\'m done </br>';
